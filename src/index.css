@@ -1,0 +1,23 @@
+:root {
+    --bg-color: #e2e5e7;
+    --navbar-bg-color: #FFFFFF;
+    --text-color: #000009;
+    --accent-color: #0077B6;
+}
+
+body.dark-mode {
+    --bg-color: #000009;
+    --navbar-bg-color: #053d86;
+    --text-color: #e2e5e7;
+}
+
+@font-face {
+    font-family: sour-gummy;
+    src: url(assets/SourGummy.ttf);
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: sour-gummy;
+    color: var(--text-color);
+}
