@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 85%;
+    position: fixed;
+    left: calc((100% - (85% + 16px * 2) ) / 2);
+    background-color: var(--navbar-bg-color);
+    color: var(--text-color);
+    padding: 16px;
+    border-radius: 32px;
+    transition: background-color, color 0.2s ease;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    user-select: none;
+}
+
+.navbar-logo {
+    height: 32px;
+    width: 32px;
+}
+
+.navbar-links {
+    font-size: small;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.navbar-links:hover {
+    transform: scale(1.5) rotateZ(-20deg);
+}

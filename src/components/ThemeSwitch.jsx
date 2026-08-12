@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ThemeSwitch = () => {
+const ThemeSwitch = ({ onChangeFunction }) => {
   return (
     <StyledWrapper>
       <label className="switch">
-        <input defaultChecked="true" id="checkbox" type="checkbox" />
+        <input defaultChecked={true} id="checkbox" type="checkbox" onChange={onChangeFunction}/>
         <span className="slider">
           <div className="star star_1" />
           <div className="star star_2" />
