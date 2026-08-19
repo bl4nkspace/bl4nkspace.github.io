@@ -4,6 +4,7 @@
     justify-content: space-between;
     width: 85%;
     position: fixed;
+    top: 20px;
     left: calc((100% - (85% + 16px * 2) ) / 2);
     background-color: var(--navbar-bg-color);
     color: var(--text-color);
