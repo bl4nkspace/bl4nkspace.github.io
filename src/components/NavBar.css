@@ -19,6 +19,12 @@
     user-select: none;
 }
 
+@media (max-width: 425px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
 .navbar-logo {
     height: 32px;
     width: 32px;
