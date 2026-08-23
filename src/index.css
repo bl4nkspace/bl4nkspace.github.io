@@ -3,12 +3,18 @@
     --navbar-bg-color: #FFFFFF;
     --text-color: #000009;
     --accent-color: #0077B6;
+    --hero-bg: url(assets/heroBgLight.png);
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 body.dark-mode {
     --bg-color: #000009;
     --navbar-bg-color: #053d86;
     --text-color: #e2e5e7;
+    --hero-bg: url(assets/heroBgDark.png);
 }
 
 @font-face {
@@ -20,4 +26,9 @@ body {
     background-color: var(--bg-color);
     font-family: sour-gummy;
     color: var(--text-color);
+}
+
+#projectsContainer {
+    display: flex;
+    flex-flow: row wrap;
 }
