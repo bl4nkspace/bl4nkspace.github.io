@@ -11,7 +11,7 @@ const NavBar = () => {
 
     return (
         <nav className="navbar">
-            <div className="navbar-brand">
+            <div>
                 <img className="navbar-logo" src="././src/assets/logo.png" alt="logo" />
             </div>
             <div className="navbar-brand">BL4NK_SPACE</div>
