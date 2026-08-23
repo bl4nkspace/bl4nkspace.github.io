@@ -1,0 +1,9 @@
+[
+    {
+        "name":"Pokémon Explorer",
+        "description":"Search for pokémons and get informations on them like health or abilities",
+        "site":"https://bl4nkspace.github.io/pokemonexplorer",
+        "languages":["Html", "Css", "Jsx"],
+        "platforms":"gh"
+    }
+]
