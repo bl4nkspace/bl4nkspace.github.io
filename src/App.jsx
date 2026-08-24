@@ -9,10 +9,10 @@ function App() {
     <>
       <NavBar />
       <Hero />
-      <div id="projects">
-        <h2>My Projects</h2>
-        <Projects />
-      </div>
+      <hr />
+      <h1 className='title'>My Projects</h1>
+      <hr />
+      <Projects />
     </>
   )
 }

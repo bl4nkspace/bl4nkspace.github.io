@@ -28,9 +28,7 @@ body {
     color: var(--text-color);
 }
 
-#projects {
-    display: flex;
-    flex-flow: row wrap;
-    padding: 10px;
-    margin-top: 10px;
+.title {
+    text-align: center;
+    text-decoration: underline;
 }
