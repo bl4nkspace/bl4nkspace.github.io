@@ -28,7 +28,9 @@ body {
     color: var(--text-color);
 }
 
-#projectsContainer {
+#projects {
     display: flex;
     flex-flow: row wrap;
+    padding: 10px;
+    margin-top: 10px;
 }
