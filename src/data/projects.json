@@ -12,5 +12,12 @@
         "site":["https://bl4nkspace.github.io/toolslibrary/", "https://github.com/bl4nkspace/toolslibrary"],
         "languages":["html", "css", "js"],
         "platforms":["web", "github"]
+    },
+    {
+        "name":"Cubiverse",
+        "description":"A minecraft-like voxel/block game coded in python using usrina game engine with procedural generation",
+        "site":["https://github.com/bl4nkspace/Cubiverse", "https://bl4nk-space.itch.io/cubiverse"],
+        "languages":["python"],
+        "platforms":["github", "itch"]
     }
 ]
