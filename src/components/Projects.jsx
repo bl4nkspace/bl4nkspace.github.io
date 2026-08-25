@@ -1,16 +1,20 @@
 import { useState, useEffect } from 'react';
 import './Projects.css';
-import { SiItchdotio, SiGithub } from "react-icons/si";
-import { BsFiletypeHtml, BsFiletypeCss, BsFiletypeJs, BsFiletypeJson, BsFiletypeJsx, BsFiletypePy } from "react-icons/bs";
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaPython, FaGithub, FaItchIo, FaGlobe } from "react-icons/fa";
 
-const iconMap = {
-    Html: <BsFiletypeHtml />,
-    Css: <BsFiletypeCss />,
-    Js: <BsFiletypeJs />,
-    Json: <BsFiletypeJson />,
-    Jsx: <BsFiletypeJsx />,
-    Py: <BsFiletypePy />
-}
+const iconsMap = {
+    //languages
+    html: <FaHtml5 />,
+    css: <FaCss3Alt />,
+    js: <FaJsSquare />,
+    react: <FaReact />,
+    python: <FaPython />,
+    //platforms
+    github: <FaGithub />,
+    itch: <FaItchIo />,
+    web: <FaGlobe />
+};
+
 
 //Fetch and turn to JSON with error handling
 const fetchProjects = async url => {
@@ -18,8 +22,8 @@ const fetchProjects = async url => {
         const response = await fetch(url);
     
         if (!response.ok) {
-            alert("Sorry, an error occured");
             console.error(`HTTP Error: ${response.status}`);
+            throw new Error();
         }
         const data = await response.json();
         return data;
@@ -36,15 +40,22 @@ const Project = ({ name, description, site, languages, platforms }) => {
         <div className='projectCard'>
             <h2>{name}</h2>
             <p>{description}</p>
-            <a className='projectLink' href={site}>Visit</a>
-            <div className='projectLanguages'>
-            {languages.map((language, index) => (
-                <div>
-                    {iconMap[language] || language}
+            <span>Used language(s):</span>
+            <div className='projectLanguagesContainer'>
+            {languages.map((language) => (
+                <div className='projectLanguages'>
+                    {iconsMap[language] || language}
                 </div>
             ))}
             </div>
-
+            <span>Platform(s):</span>
+            <div className='projectPlatformsContainer'>
+            {platforms.map((platform, index) => (
+                <a className='projectPlatforms' href={site[index]}>
+                    {iconsMap[platform] || platform}
+                </a>
+            ))}
+            </div>
         </div>
     );
 }

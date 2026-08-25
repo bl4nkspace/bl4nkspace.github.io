@@ -1,6 +1,7 @@
 #projects {
     display: flex;
     flex-flow: row wrap;
+    align-items: stretch;
     padding: 10px;
     margin-top: 10px;
 }
@@ -10,15 +11,35 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    flex: 1 1 200px;
-    border: 5px solid var(--accent-color);
+    flex: 1 1 240px;
+    border: 3px solid var(--accent-color);
     border-radius: 25px;
-    height: 300px;
-    padding: 20px;
+    padding: 10px 20px;
+    margin: 10px;
 }
 
 .projectLink {
     color: var(--accent-color);
     text-decoration: none;
     font-size: 125%;
+}
+
+.projectLanguagesContainer, .projectPlatformsContainer {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.projectLanguages, .projectPlatforms {
+    margin: 15px;
+    font-size: 175%;
+    color: var(--text-color);
+}
+
+.projectPlatforms {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.projectPlatforms:hover {
+    transform: scale(1.5);
 }
