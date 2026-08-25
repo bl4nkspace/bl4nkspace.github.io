@@ -4,11 +4,11 @@ import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaPython, FaGithub, FaItchIo, 
 
 const iconsMap = {
     //languages
-    html: <FaHtml5 />,
-    css: <FaCss3Alt />,
-    js: <FaJsSquare />,
-    react: <FaReact />,
-    python: <FaPython />,
+    html: <FaHtml5 color='red' />,
+    css: <FaCss3Alt color='blue' />,
+    js: <FaJsSquare color='#F7DF1E' />,
+    react: <FaReact color='#58c4dc' />,
+    python: <FaPython color='#346C99' />,
     //platforms
     github: <FaGithub />,
     itch: <FaItchIo />,
@@ -51,7 +51,7 @@ const Project = ({ name, description, site, languages, platforms }) => {
             <span>Platform(s):</span>
             <div className='projectPlatformsContainer'>
             {platforms.map((platform, index) => (
-                <a className='projectPlatforms' href={site[index]}>
+                <a className='projectPlatforms' href={site[index]} target='_blank'>
                     {iconsMap[platform] || platform}
                 </a>
             ))}
