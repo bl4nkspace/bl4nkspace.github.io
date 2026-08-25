@@ -19,5 +19,19 @@
         "site":["https://github.com/bl4nkspace/Cubiverse", "https://bl4nk-space.itch.io/cubiverse"],
         "languages":["python"],
         "platforms":["github", "itch"]
+    },
+    {
+        "name":"PixelBench",
+        "description":"A lightweight web-based pixel art editor",
+        "site":["https://bl4nk-space.itch.io/pixel-bench"],
+        "languages":["html"],
+        "platforms":["itch"]
+    },
+    {
+        "name":"Blade of Ages I",
+        "description":"A fast pixel platformer: jump, dodge monsters, collect coins. Play anywhere!",
+        "site":["https://bl4nk-space.itch.io/blade-of-ages-i"],
+        "languages":["godot"],
+        "platforms":["itch"]
     }
 ]

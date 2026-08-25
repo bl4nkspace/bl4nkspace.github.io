@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import './Projects.css';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaPython, FaGithub, FaItchIo, FaGlobe } from "react-icons/fa";
+import { SiGodotengine } from "react-icons/si";
 
 const iconsMap = {
     //languages
@@ -9,6 +10,7 @@ const iconsMap = {
     js: <FaJsSquare color='#F7DF1E' />,
     react: <FaReact color='#58c4dc' />,
     python: <FaPython color='#346C99' />,
+    godot: <SiGodotengine color='#4487B9' />,
     //platforms
     github: <FaGithub />,
     itch: <FaItchIo />,
