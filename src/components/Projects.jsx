@@ -5,16 +5,16 @@ import { SiGodotengine } from "react-icons/si";
 
 const iconsMap = {
     //languages
-    html: <FaHtml5 color='red' />,
-    css: <FaCss3Alt color='blue' />,
-    js: <FaJsSquare color='#F7DF1E' />,
-    react: <FaReact color='#58c4dc' />,
-    python: <FaPython color='#346C99' />,
-    godot: <SiGodotengine color='#4487B9' />,
+    html: <FaHtml5 color='red' title='Html' />,
+    css: <FaCss3Alt color='blue' title='Css' />,
+    js: <FaJsSquare color='#F7DF1E' title='JavaScript' />,
+    react: <FaReact color='#58c4dc' title='React' />,
+    python: <FaPython color='#346C99' title='Python' />,
+    godot: <SiGodotengine color='#4487B9' title='Godot Engine' />,
     //platforms
-    github: <FaGithub />,
-    itch: <FaItchIo />,
-    web: <FaGlobe />
+    github: <FaGithub title='View on GitHub' />,
+    itch: <FaItchIo title='View on Itch.io' />,
+    web: <FaGlobe title='View website' />
 };
 
 
