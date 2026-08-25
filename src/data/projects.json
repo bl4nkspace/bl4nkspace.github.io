@@ -2,8 +2,15 @@
     {
         "name":"Pokémon Explorer",
         "description":"Search for pokémons and get informations on them like health or abilities, uses Mimo's pokédex api",
-        "site":["https://bl4nkspace.github.io/pokemonexplorer"],
-        "languages":["html", "css", "jsx"],
-        "platforms":["gh"]
+        "site":["https://bl4nkspace.github.io/pokemonexplorer", "https://github.com/bl4nkspace/pokemonexplorer"],
+        "languages":["html", "css", "react"],
+        "platforms":["web", "github"]
+    },
+    {
+        "name":"FT Library",
+        "description":"A collection of 130+ free tools and website you surely want to know",
+        "site":["https://bl4nkspace.github.io/toolslibrary/", "https://github.com/bl4nkspace/toolslibrary"],
+        "languages":["html", "css", "js"],
+        "platforms":["web", "github"]
     }
 ]
