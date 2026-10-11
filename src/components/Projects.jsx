@@ -31,7 +31,7 @@ const fetchProjects = async url => {
         return data;
 
     } catch (error) {
-        alert("Sorry, an error occured");
+        alert("Sorry, an error occured while fetching the projects");
         console.error("Error :", error.message);
     }
 }
