@@ -76,7 +76,7 @@ const Projects = () => {
     }, []);
 
     return(
-        <div id='projects'>
+        <div id='projects-container'>
             {projectsData.map((project, index) => (
                 <Project 
                     key={index}
