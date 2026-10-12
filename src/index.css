@@ -6,10 +6,6 @@
     --hero-bg: url(assets/heroBgLight.png);
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 ::-webkit-scrollbar {
     display: none;
 }
