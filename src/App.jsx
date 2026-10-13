@@ -12,11 +12,9 @@ function App() {
       <Hero />
       <hr />
       <h1 className='title' id='languages'>Languages/Tools I use</h1>
-      <hr />
       <KnownLanguages />
       <hr />
       <h1 className='title' id='projects'>My Projects</h1>
-      <hr />
       <Projects />
     </>
   )
