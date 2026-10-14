@@ -2,7 +2,7 @@
     --bg-color: #e2e5e7;
     --navbar-bg-color: #FFFFFF;
     --navbar-transparent-bg-color: #ffffff4d;
-    --text-color: #000009;
+    --text-color: #121212;
     --accent-color: #0077B6;
     --hero-bg: url(assets/heroBgLight.png);
 }
@@ -12,7 +12,7 @@
 }
 
 body.dark-mode {
-    --bg-color: #000009;
+    --bg-color: #121212;
     --navbar-bg-color: #053d86;
     --navbar-transparent-bg-color: #053d864d;
     --text-color: #e2e5e7;
