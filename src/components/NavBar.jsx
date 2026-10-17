@@ -12,7 +12,7 @@ const NavBar = () => {
     return (
         <nav className="navbar">
             <div>
-                <img className="navbar-logo" src="././src/assets/logo.png" alt="logo" />
+                <img className="navbar-logo" src={logo} alt="logo" />
             </div>
             <div className="navbar-brand">BL4NK_SPACE</div>
             <a className="navbar-links" href="https://bl4nk-space.itch.io/" target="_blank" title="Itch.io">
