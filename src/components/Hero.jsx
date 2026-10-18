@@ -6,7 +6,7 @@ const Hero = () => {
   const lenis = useLenis();
 
   return (
-    <div className="hero">
+    <main className="hero">
       <div className="hero-content">
         <h1>BL4NK_SPACE</h1>
         <p>Aspiring developer</p>
@@ -21,7 +21,7 @@ const Hero = () => {
           View my projects
         </a>
       </div>
-    </div>
+    </main>
   );
 };
 

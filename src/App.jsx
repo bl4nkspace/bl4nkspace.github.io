@@ -11,11 +11,15 @@ function App() {
       <NavBar />
       <Hero />
       <hr />
-      <h1 className='title' id='languages'>Languages/Tools I use</h1>
-      <KnownLanguages />
+      <section id='languages'>
+        <h1 className='title' id='languages'>Languages/Tools I use</h1>
+       <KnownLanguages />
+      </section>
       <hr />
-      <h1 className='title' id='projects'>My Projects</h1>
-      <Projects />
+      <section id='projects'>
+        <h1 className='title'>My Projects</h1>
+        <Projects />
+      </section>
     </>
   )
 }
