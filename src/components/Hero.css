@@ -3,8 +3,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: calc(100vw - 16px);
-    height: calc(100vh - 16px);
+    width: 100vw;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,10 +23,12 @@
 
 .hero-content p {
     margin-top: 0;
+    margin-bottom: 8px;
 }
 
 .hero-btn {
     display: inline-block;
+    margin: 8px;
     padding: 8px 16px;
     border-radius: 16px;
     background-color: var(--accent-color);

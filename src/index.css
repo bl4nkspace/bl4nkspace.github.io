@@ -28,6 +28,7 @@ body {
     background-color: var(--bg-color);
     font-family: sour-gummy;
     color: var(--text-color);
+    margin: 0;
 }
 
 .title {

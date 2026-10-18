@@ -2,10 +2,10 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    width: calc(100vw - 48px);
+    width: calc(100vw - 32px);
     position: fixed;
     top: 0px;
-    left: 8px;
+    left: 0px;
     color: var(--text-color);
     padding: 16px;
     border-radius: 0px;
@@ -21,9 +21,9 @@
 
 @keyframes changeScroll {
     from {
-width: calc(100vw - 48px);
+        width: calc(100vw - 32px);
         top: 0px;
-        left: 8px;
+        left: 0px;
         border-radius: 0px;
     }
     to {
