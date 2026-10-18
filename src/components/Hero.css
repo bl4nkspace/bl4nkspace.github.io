@@ -28,7 +28,7 @@
 
 .hero-btn {
     display: inline-block;
-    margin: 8px 0;
+    margin: 8px;
     padding: 8px 16px;
     border-radius: 16px;
     background-color: var(--accent-color);

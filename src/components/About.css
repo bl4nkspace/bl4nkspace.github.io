@@ -1,0 +1,33 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+@media (max-width: 775px) {
+    .aboutContainer {
+        flex-wrap: wrap;
+    }
+}
+
+.aboutElement {
+    width: 500px;
+    margin: 16px;
+    flex: 1 1 500px;
+}
+
+.aboutParagraph {
+    margin: 1em 4px 1em 4px;
+    font-size: 120%;
+}
+
+.aboutMail {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.aboutMail:hover {
+    text-decoration: underline;
+}

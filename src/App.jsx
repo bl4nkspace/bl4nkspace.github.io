@@ -2,7 +2,7 @@ import './index.css';
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
-import KnownLanguages from './components/KnownLanguages';
+import About from './components/About';
 
 function App() {
   return (
@@ -10,9 +10,9 @@ function App() {
       <NavBar />
       <Hero />
       <hr />
-      <section id='languages'>
-        <h1 className='title' id='languages'>Languages/Tools I use</h1>
-       <KnownLanguages />
+      <section id='about'>
+        <h1 className='title'>About me</h1>
+        <About />
       </section>
       <hr />
       <section id='projects'>

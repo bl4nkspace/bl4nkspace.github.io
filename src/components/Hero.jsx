@@ -8,7 +8,17 @@ const Hero = () => {
     <main className="hero">
       <div className="hero-content">
         <h1>BL4NK_SPACE</h1>
-        <p>Aspiring developer</p>
+        <p>Welcome to my portofolio !</p>
+        <a 
+          href="#about" 
+          className="hero-btn" 
+          onClick={(e) => {
+            e.preventDefault();
+            lenis?.scrollTo("#about");
+          }}
+        >
+          About me
+        </a>
         <a 
           href="#projects" 
           className="hero-btn" 
