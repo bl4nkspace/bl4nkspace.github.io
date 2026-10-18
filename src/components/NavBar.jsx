@@ -15,10 +15,22 @@ const NavBar = () => {
                 <img className="navbar-logo" src={logo} alt="logo" />
             </div>
             <div className="navbar-brand">BL4NK_SPACE</div>
-            <a className="navbar-links" href="https://bl4nk-space.itch.io/" target="_blank" title="Itch.io">
+            <a 
+                className="navbar-links" 
+                rel="noopener noreferrer" 
+                href="https://bl4nk-space.itch.io/" 
+                target="_blank" 
+                title="Itch.io"
+            >
                 <SiItchdotio size={32} />
             </a>
-            <a className="navbar-links" href="https://github.com/bl4nkspace" target="_blank" title="GitHub">
+            <a 
+                className="navbar-links" 
+                rel="noopener noreferrer" 
+                href="https://github.com/bl4nkspace" 
+                target="_blank" 
+                title="GitHub"
+            >
                 <SiGithub size={32} />
             </a>
             <div className="navbar-actions" title="Toggle dark mode">

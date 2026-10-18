@@ -35,7 +35,7 @@ const Project = ({ name, description, site, languages, platforms }) => {
             <span>Platform(s):</span>
             <div className='projectPlatformsContainer'>
             {platforms.map((platform, index) => (
-                <a className='projectPlatforms' href={site[index]} target='_blank'>
+                <a rel="noopener" className='projectPlatforms' href={site[index]} target='_blank'>
                     {iconsMap[platform] || platform}
                 </a>
             ))}
