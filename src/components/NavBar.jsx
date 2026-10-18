@@ -1,7 +1,7 @@
 import ThemeSwitch from './ThemeSwitch';
 import { SiItchdotio, SiGithub } from "react-icons/si";
 import './NavBar.css';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.svg';
 
 const NavBar = () => {
     const toggleDarkMode = () => {

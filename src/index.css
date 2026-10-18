@@ -4,7 +4,7 @@
     --navbar-transparent-bg-color: #ffffff4d;
     --text-color: #121212;
     --accent-color: #0077B6;
-    --hero-bg: url(assets/heroBgLight.png);
+    --hero-bg: url(assets/heroBgLight.webp);
 }
 
 ::-webkit-scrollbar {
@@ -16,7 +16,7 @@ body.dark-mode {
     --navbar-bg-color: #053d86;
     --navbar-transparent-bg-color: #053d864d;
     --text-color: #e2e5e7;
-    --hero-bg: url(assets/heroBgDark.png);
+    --hero-bg: url(assets/heroBgDark.webp);
 }
 
 @font-face {
