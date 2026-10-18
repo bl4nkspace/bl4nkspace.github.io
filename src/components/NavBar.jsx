@@ -1,4 +1,3 @@
-import React from 'react';
 import ThemeSwitch from './ThemeSwitch';
 import { SiItchdotio, SiGithub } from "react-icons/si";
 import './NavBar.css';

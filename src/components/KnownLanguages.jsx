@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './KnownLanguages.css';
 
 const KnownLanguages  = () => {

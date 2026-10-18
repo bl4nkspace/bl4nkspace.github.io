@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import './Projects.css';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaPython, FaGithub, FaItchIo, FaGlobe } from 'react-icons/fa';
 import { SiGodotengine } from 'react-icons/si';
