@@ -43,7 +43,7 @@ const KnownLanguages  = () => {
     <div align="center">
     {// Return an image for each language using SkillIcons
       languages.map((language) => (
-        <img className='languageImg' src={`https://skillicons.dev/icons?theme=dark&i=${language}`} />
+        <img key={language} className='languageImg' src={`https://skillicons.dev/icons?theme=dark&i=${language}`} />
       ))
     }
     </div>
