@@ -16,28 +16,22 @@
     padding: 8px 16px;
 }
 
-.projectLink {
-    color: var(--accent-color);
-    text-decoration: none;
-    font-size: 125%;
-}
-
-.projectLanguagesContainer, .projectPlatformsContainer {
+.projectLanguagesContainer, .projectLinksContainer {
     display: flex;
     flex-flow: row wrap;
 }
 
-.projectLanguages, .projectPlatforms {
+.projectLanguages, .projectLink {
     margin: 8px;
     font-size: 200%;
     color: var(--text-color);
 }
 
-.projectPlatforms {
+.projectLink {
     text-decoration: none;
     transition: all 0.3s;
 }
 
-.projectPlatforms:hover {
+.projectLink:hover {
     transform: scale(1.5);
 }

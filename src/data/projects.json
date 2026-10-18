@@ -2,36 +2,44 @@
     {
         "name":"Pokémon Explorer",
         "description":"Search for ¨Pokémon and get information on them like health or abilities, uses Mimo's pokédex api",
-        "site":["https://bl4nkspace.github.io/pokemonexplorer", "https://github.com/bl4nkspace/pokemonexplorer"],
         "languages":["html", "css", "react"],
-        "platforms":["web", "github"]
+        "links": [
+            {"type":"web", "url":"https://bl4nkspace.github.io/pokemonexplorer"},
+            {"type":"github", "url":"https://github.com/bl4nkspace/pokemonexplorer"}
+        ]
     },
     {
         "name":"FT Library",
         "description":"A collection of 130+ free tools and websites you surely want to know",
-        "site":["https://bl4nkspace.github.io/toolslibrary/", "https://github.com/bl4nkspace/toolslibrary"],
         "languages":["html", "css", "js"],
-        "platforms":["web", "github"]
+        "links": [
+            {"type":"web", "url":"https://bl4nkspace.github.io/toolslibrary/"},
+            {"type":"github", "url":"https://github.com/bl4nkspace/toolslibrary"}
+        ]
     },
     {
         "name":"Cubiverse",
         "description":"A minecraft-like voxel/block game coded in python using Ursina game engine with procedural generation",
-        "site":["https://github.com/bl4nkspace/Cubiverse", "https://bl4nk-space.itch.io/cubiverse"],
         "languages":["python"],
-        "platforms":["github", "itch"]
+        "links": [
+            {"type":"github", "url":"https://github.com/bl4nkspace/Cubiverse"},
+            {"type":"itch", "url":"https://bl4nk-space.itch.io/cubiverse"}
+        ]
     },
     {
         "name":"PixelBench",
         "description":"A lightweight web-based pixel art editor",
-        "site":["https://bl4nk-space.itch.io/pixel-bench"],
-        "languages":["html"],
-        "platforms":["itch"]
+        "languages":["html", "css", "js"],
+        "links": [
+            {"type":"itch", "url":"https://bl4nk-space.itch.io/pixel-bench"}
+        ]
     },
     {
         "name":"Blade of Ages I",
         "description":"A fast pixel platformer: jump, dodge monsters, collect coins. Play anywhere!",
-        "site":["https://bl4nk-space.itch.io/blade-of-ages-i"],
         "languages":["godot"],
-        "platforms":["itch"]
+        "links": [
+            {"type":"itch", "url":"https://bl4nk-space.itch.io/blade-of-ages-i"}
+        ]
     }
 ]

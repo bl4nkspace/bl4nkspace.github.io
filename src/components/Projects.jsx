@@ -18,7 +18,7 @@ const iconsMap = {
 };
 
 //Single project function
-const Project = ({ name, description, site, languages, platforms }) => {
+const Project = ({ name, description, languages, links }) => {
     return (
         <div className='projectCard'>
             <h2>{name}</h2>
@@ -32,10 +32,16 @@ const Project = ({ name, description, site, languages, platforms }) => {
             ))}
             </div>
             <span>Platform(s):</span>
-            <div className='projectPlatformsContainer'>
-            {platforms.map((platform, index) => (
-                <a rel="noopener" className='projectPlatforms' href={site[index]} target='_blank'>
-                    {iconsMap[platform] || platform}
+            <div className='projectLinksContainer'>
+            {links.map((link, index) => (
+                <a 
+                    key={index} 
+                    rel="noopener" 
+                    className='projectLink' 
+                    href={link.url} 
+                    target='_blank'
+                >
+                    {iconsMap[link.type] || link.type}
                 </a>
             ))}
             </div>
@@ -51,10 +57,9 @@ const Projects = () => {
                 <Project 
                     key={index}
                     name={project.name} 
-                    description={project.description} 
-                    site={project.site} 
+                    description={project.description}
                     languages={project.languages} 
-                    platforms={project.platforms} 
+                    links={project.links} 
                 />
             ))}
         </div>
