@@ -21,12 +21,13 @@ body.dark-mode {
 
 @font-face {
     font-family: sour-gummy;
+    font-display: swap;
     src: url(assets/SourGummy.ttf);
 }
 
 body {
     background-color: var(--bg-color);
-    font-family: sour-gummy;
+    font-family: sour-gummy, cursive, sans-serif;
     color: var(--text-color);
     margin: 0;
 }
