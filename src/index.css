@@ -41,3 +41,7 @@ hr {
     border: 2px solid var(--accent-color);
     border-radius: 2px;
 }
+
+.center {
+    text-align: center;
+}
