@@ -6,8 +6,8 @@ import projects from '../data/projects.json';
 
 const iconsMap = {
     //languages
-    html: <FaHtml5 color='red' title='Html' />,
-    css: <FaCss3Alt color='blue' title='Css' />,
+    html: <FaHtml5 color='#E34F26' title='Html' />,
+    css: <FaCss3Alt color='#1572B6' title='Css' />,
     js: <FaJsSquare color='#e2cb1d' title='JavaScript' />,
     react: <FaReact color='#52b0c5' title='React' />,
     python: <FaPython color='#346C99' title='Python' />,
